@@ -93,7 +93,7 @@ def _grade(suite: Suite, prompt: Prompt, case: Case, provider: Provider) -> Case
     result = CaseResult(prompt.id, case.id, case.tags, completion=None)
     try:
         completion = provider.complete(result.key, prompt.system, prompt.render(case.vars))
-    except Exception as exc:  # one failed call should not sink the whole run
+    except Exception as exc:  # noqa: BLE001  one failed call should not sink the whole run
         result.error = f"{type(exc).__name__}: {exc}"
         return result
     result.completion = completion

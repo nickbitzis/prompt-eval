@@ -5,7 +5,12 @@ from types import SimpleNamespace
 import pytest
 
 from prompteval.cli import main
-from prompteval.providers import ClaudeProvider, Completion, ReplayProvider, save_recording
+from prompteval.providers import (
+    ClaudeProvider,
+    Completion,
+    ReplayProvider,
+    save_recording,
+)
 from prompteval.report import to_html, to_json, to_markdown
 from prompteval.runner import run_suite
 from prompteval.suite import load_suite
