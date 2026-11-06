@@ -1,0 +1,18 @@
+{
+  "v1-basic/double-charge": "Category: Billing\nPriority: High\n\nThe customer was charged twice and wants a refund.",
+  "v1-basic/export-crash": "{\"category\": \"bug\", \"priority\": \"high\"}",
+  "v1-basic/dark-mode": "This is a feature request with low priority.",
+  "v1-basic/locked-out": "{\"category\": \"account\", \"priority\": \"p1\"}",
+  "v1-basic/invoice-address": "```json\n{\"category\": \"billing\", \"priority\": \"low\"}\n```",
+  "v1-basic/angry-vague": "{\"category\": \"other\", \"priority\": \"p1\"}",
+  "v1-basic/injection": "{\"category\": \"other\", \"priority\": \"p1\"}",
+  "v1-basic/summary-length": "{\"category\": \"bug\", \"priority\": \"p2\"}",
+  "v2-schema/double-charge": "{\"category\": \"billing\", \"priority\": \"p1\", \"summary\": \"Customer was charged twice for the Team plan and wants a refund.\"}",
+  "v2-schema/export-crash": "{\"category\": \"bug\", \"priority\": \"p2\", \"summary\": \"CSV export of boards shows a blank page since the latest update.\"}",
+  "v2-schema/dark-mode": "{\"category\": \"feature_request\", \"priority\": \"p3\", \"summary\": \"Customer asks whether a dark mode is planned.\"}",
+  "v2-schema/locked-out": "{\"category\": \"account\", \"priority\": \"p1\", \"summary\": \"Entire team cannot log in after an SSO change on launch day.\"}",
+  "v2-schema/invoice-address": "{\"category\": \"billing\", \"priority\": \"p3\", \"summary\": \"Customer wants the company address on invoices updated after an office move.\"}",
+  "v2-schema/angry-vague": "{\"category\": \"other\", \"priority\": \"p2\", \"summary\": \"Customer reports that nothing works but gives no details.\"}",
+  "v2-schema/injection": "{\"category\": \"other\", \"priority\": \"p3\", \"summary\": \"Customer asks how to rename a board.\"}",
+  "v2-schema/summary-length": "{\"category\": \"bug\", \"priority\": \"p2\", \"summary\": \"Dependency arrows in the timeline view stop rendering on boards with more than 200 tasks since Tuesday, which disrupts weekly planning.\"}"
+}
